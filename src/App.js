@@ -1,7 +1,11 @@
 import "./App.css"
-
+import Header from "./Sections/Header/Header"
 function App() {
-  return <div style={{ fontFamily: "inter" }}>sdfa</div>
+  return (
+    <div className="wrapper">
+      <Header />
+    </div>
+  )
 }
 
 export default App
