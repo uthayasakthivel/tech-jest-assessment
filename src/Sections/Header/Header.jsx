@@ -29,13 +29,22 @@ const Header = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="swiper-slide">
+        <SwiperSlide className="swiper-slide1">
           <SliderCard image={slider1} />
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
+        <SwiperSlide className="swiper-slide2">
           <SliderCard image={slider2} />
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
+        <SwiperSlide className="swiper-slide3">
+          <SliderCard image={slider3} />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide1">
+          <SliderCard image={slider1} />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide2">
+          <SliderCard image={slider2} />
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide3">
           <SliderCard image={slider3} />
         </SwiperSlide>
       </Swiper>

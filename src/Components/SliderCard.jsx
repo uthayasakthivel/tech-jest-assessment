@@ -1,10 +1,9 @@
 import React from "react"
 import SliderCardContent from "./SliderCardContent"
 
-const SliderCard = ({ image }) => {
+const SliderCard = () => {
   return (
     <div className="slider-card">
-      <img src={image} alt="" />
       <SliderCardContent />
     </div>
   )

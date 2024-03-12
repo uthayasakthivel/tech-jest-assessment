@@ -33,7 +33,6 @@ img{
 }
 
 button{
-
   outline: none;
   border: 1px solid var(--text-secondary);
   background-color: transparent;
@@ -43,45 +42,14 @@ button{
   padding: 25px 40px;
   border-radius: 8.23px;
   text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
-/* Header */
- .slider-card{
-  position: relative;
-    text-align: center;
-    color: var(--text-primary);
-    height: 60vh;
-} 
-
- .sliderContent{
-  position: absolute;
-  top: 50%;
-  left: 28%;
-  transform: translate(-50%, -50%);
-  background-image: url(./assets/sliderBg.png);
-  background-repeat: no-repeat;
-  padding: 5rem 2rem;
-} 
-
-.slider-card img{
-  width: 100%;
-  height: 100%;
-}
-
-.sliderContent h3{
-  font-size: 2.25rem;
-  margin-top: 0.5rem;
-  margin-bottom: 2.688rem;
-}
-
-.sliderContent p{
-  font-size: 1.5rem;
+button:hover{
+  color: var(--text-secondary);
+  background-color: var(--text-primary);
 }
 
 
 
-/* 
-
- .swiper-wrapper{
-  margin-left: -45rem !important;
-}  */

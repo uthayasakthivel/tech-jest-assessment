@@ -19,6 +19,7 @@ import product2 from "./product2.png"
 import product3 from "./product3.png"
 import product4 from "./product4.png"
 import ribbons from "./ribbons.png"
+import ribbons1 from "./ribbons1.png"
 import slider1 from "./slider1.png"
 import slider2 from "./slider2.png"
 import slider3 from "./slider3.png"
@@ -60,4 +61,5 @@ export {
   uaeicon,
   whiteball,
   womanonchair,
+  ribbons1,
 }
