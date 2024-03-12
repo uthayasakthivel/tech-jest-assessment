@@ -1,0 +1,193 @@
+.perks-container{
+    max-width: 1231.42px;
+    /* margin: 0 auto 10rem auto; */
+    margin: 0 auto;
+    color: var(--text-primary);
+    padding-bottom: 5rem;
+}
+
+.perks-container .swiper-wrapper{
+    margin-bottom: 3rem;
+}
+
+.carousel-section{
+    position: relative;
+}
+
+.arrows{
+    position: absolute;
+    bottom: 1rem;
+    z-index: 3;
+    right: 2rem;
+}
+
+.leftarrow,.rightarrow{
+    cursor: pointer;
+    -webkit-text-stroke: 1px white;
+}
+
+.fileter-section{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 2.5rem auto;
+}
+
+.fileter-section a{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.perks-container h3{
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.perks-container h3 span{
+    font-weight: 600;
+}
+
+.leftarrow svg{
+    background: rgba(21, 22, 49, 1);
+    padding: 1rem;
+    box-sizing: content-box;
+    border-radius: 35px;
+
+}
+
+.rightarrow svg{
+    background: rgba(21, 22, 49, 1);
+    padding: 1rem;
+    box-sizing: content-box;
+    border-radius: 35px;
+    margin-left: 1rem;
+}
+.carousel-section img{
+    width: 100%;
+}
+
+.products{
+    position: relative;
+
+}
+
+.tanishq-icon img{
+    width: 30px;
+}
+
+.product-image{
+    position: relative;
+    z-index: 1;
+}
+ 
+.overlay-image {
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+    height: 100%;
+  }
+
+
+.products img{
+    border-radius: 16.91px;
+}
+
+.product-details {
+    background: rgba(21, 22, 49, 1);
+    position: relative;
+    z-index: 1;
+    top: -5rem;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.product-details h4{
+    font-weight: 700;
+    font-size: 1.166rem;
+}
+
+.product-details p{
+    font-weight: 300;
+    font-size: 0.777rem;
+
+}
+
+.discount-section,.discount-content{
+    display: flex;
+}
+
+.discount-content{
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.discount-content hr{
+    margin: 15px 0;
+    transform: translateX(-10%) scaleX(1.25);
+}
+
+.swiper-button-next{
+   display: none;
+}
+
+.swiper-button-prev{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1255px) {
+   .carousel-section{
+    padding: 0 1rem;
+   }
+  }
+
+@media only screen and (max-width: 1000px) {
+    .fileter-section{
+        width: 70%;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+   .product-details{
+    align-items: center;
+    top: -7rem;
+   }
+   .fileter-section{
+    padding: 0 1rem;
+    width: 100%;
+    }
+    .leftarrow svg,.rightarrow svg {
+        padding: 0.5rem;
+    }
+    .arrows{
+        bottom: 5rem;
+    }
+  }
+
+@media only screen and (max-width: 570px) {
+   .fileter-section{
+   flex-direction: column;
+    gap: 20px;
+   align-items: center;
+}
+  }
+
+@media only screen and (max-width: 540px) {
+   .arrows{
+    transform: translateX(-100%);
+   }
+   
+  }
+
+  @media only screen and (max-width: 310px) {
+    .arrows{
+        transform: translateX(-10%);
+       }
+  }

@@ -20,6 +20,7 @@ import product3 from "./product3.png"
 import product4 from "./product4.png"
 import ribbons from "./ribbons.png"
 import ribbons1 from "./ribbons1.png"
+import tanishqlogo from "./tanishqlogo.png"
 import slider1 from "./slider1.png"
 import slider2 from "./slider2.png"
 import slider3 from "./slider3.png"
@@ -29,8 +30,15 @@ import uaeicon from "./uaeicon.png"
 import whiteball from "./whiteball.png"
 import womanonchair from "./womanonchair.png"
 import sliderBg from "./sliderBg.png"
+import overlay from "./overlay.png"
+import rightarrow from "./arrow-right.png"
+import leftarrow from "./arrow-left.png"
+import ball from "./ball.png"
 
 export {
+  leftarrow,
+  ball,
+  rightarrow,
   basket,
   bigellipse,
   countries,
@@ -62,4 +70,6 @@ export {
   whiteball,
   womanonchair,
   ribbons1,
+  tanishqlogo,
+  overlay,
 }

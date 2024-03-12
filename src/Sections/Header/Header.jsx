@@ -8,9 +8,9 @@ import "swiper/css/pagination"
 import "swiper/css/navigation"
 import { Pagination, Navigation } from "swiper/modules"
 
-import { slider1 } from "../../assets"
-import { slider2 } from "../../assets"
-import { slider3 } from "../../assets"
+// import { slider1 } from "../../assets"
+// import { slider2 } from "../../assets"
+// import { slider3 } from "../../assets"
 
 const Header = () => {
   // useEffect(() => {
@@ -19,33 +19,41 @@ const Header = () => {
   return (
     <div className="header">
       <Swiper
-        slidesPerView={1.5}
+        slidesPerView={1}
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
+        
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+           
+              760: {
+                slidesPerView: 1.5,
+                spaceBetween: 50,
+              },
+            }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className="swiper-slide1">
-          <SliderCard image={slider1} />
+          <SliderCard />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide2">
-          <SliderCard image={slider2} />
+          <SliderCard />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide3">
-          <SliderCard image={slider3} />
+          <SliderCard />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide1">
-          <SliderCard image={slider1} />
+          <SliderCard />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide2">
-          <SliderCard image={slider2} />
+          <SliderCard />
         </SwiperSlide>
         <SwiperSlide className="swiper-slide3">
-          <SliderCard image={slider3} />
+          <SliderCard />
         </SwiperSlide>
       </Swiper>
     </div>
